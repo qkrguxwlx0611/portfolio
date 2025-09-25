@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div img {
+  margin: 0 auto;
+  display: block;
+}
+
+body {
+  background-color: #eef4ff;
+  text-align: center;
+}
+
+.guide_container {
+  display: flex;
+  text-align: center;               
+}
+
+.fixed {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+}
+
+.fixed:hover {
+  opacity: 0.8;
+}
+
+.fixed2 {
+  position: fixed;
+  right: 100px;
+  bottom: 40px;
+}
+
+.fixed2:hover {
+  opacity: 0.8;
+}

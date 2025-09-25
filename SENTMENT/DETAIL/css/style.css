@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div img {
+  margin: 0 auto;
+  display: block;
+}
+
+.fixed {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+}
+
+.fixed:hover {
+  opacity: 0.8;
+}
+
+.fixed2 {
+  position: fixed;
+  right: 100px;
+  bottom: 40px;
+}
+
+.fixed2:hover {
+  opacity: 0.8;
+}
